@@ -17,11 +17,11 @@ Egy ruházati webshop létrehozása, ahol az adminisztrátor termékeket tud ár
 
 ![Felhasználói esetek](/images/webshop_esetek.png)
 
-Nem funkcionális követelmények:
+## Nem funkcionális követelmények:
 
 Az admin accountok plusz opciókkal rendelkeznek a megjelenő frontend felületen. Így tudják a rendeléseket, illetve raktárkészleteket adminisztrálni.
 
-Használat:
+### Használat:
 
 • Az alkalmazás listázza kategóriánként a termékeket (márka, típus, leírás,
 nettó/bruttó ár, illetve raktárkészlet), és lehetőség van a raktárkészlet
@@ -32,7 +32,7 @@ cím, termékek listája). Ha egy rendelés teljesített, a rendszer megerősít
 A rendelések szűrhetőek a rendelő
 név(részlet), dátum, valamint teljesítettség állapota szerint.
 
-Elérhetőség: 
+### Elérhetőség: 
 
 Az alkalmazásnak 0-24ben működőképesnek kell lennie, hogy a beérkező rendeléseket fel tudja dolgozni.
 
