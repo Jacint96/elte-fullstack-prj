@@ -9,11 +9,11 @@ Egy ruházati webshop létrehozása, ahol az adminisztrátor termékeket tud ár
 
 ### Használt technológiák:
 
-**Adatbázis**: külön táblákat tartalmaz a regisztrált felhasználóknak, a termék kategóriáknak, a termékeknek, a megrendeléseknek, valamint kapcsolótáblák az ezek között fennálló kapcsolatoknak.
-**Szerveroldal**: A backend megvalósítása Java Spring Boot technológiával történik, a frontenddel való kommunkáció pedig REST API-n keresztül zajlik.
-**Kliensoldal**: A frontend megvalósítása Angular keretrendszer használatával történik, a backenddel való kommunikáció AJAX kéréseken keresztül zajlik.
+* **Adatbázis**: külön táblákat tartalmaz a regisztrált felhasználóknak, a termék kategóriáknak, a termékeknek, a megrendeléseknek, valamint kapcsolótáblák az ezek között fennálló kapcsolatoknak.
+* **Szerveroldal**: A backend megvalósítása Java Spring Boot technológiával történik, a frontenddel való kommunkáció pedig REST API-n keresztül zajlik.
+* **Kliensoldal**: A frontend megvalósítása Angular keretrendszer használatával történik, a backenddel való kommunikáció AJAX kéréseken keresztül zajlik.
 
-###Felhasználói Eset Diagram:
+### Felhasználói Eset Diagram:
 
 ![Felhasználói esetek](/images/webshop_esetek.png)
 
