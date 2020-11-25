@@ -1,0 +1,8 @@
+.main-nav-link{
+  align-self: center;
+  float:right;
+}
+.right-nav{
+  width: 100%;
+  justify-content: flex-end;
+}

@@ -1,0 +1,17 @@
+.footer-row{
+  background-color: black;
+  color: white;
+}
+
+.footer-col{
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.footer-fa{
+  padding-right:15px;
+}
+
+.footer-title{
+  text-align: center;
+}

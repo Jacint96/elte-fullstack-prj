@@ -1,0 +1,18 @@
+<div class="row pt-3">
+  <div *ngFor="let product of products" class="col-lg-4 col-md-4 col-sm-6 col-12 pt-3" fxFlexAlign="stretch">
+    <mat-card class="example-card" routerLink="/products/{{product.id}}">
+      <img mat-card-image src="{{product.image}}" alt="Photo of a Shiba Inu" style="max-height: 420px;">
+      <mat-card-content>
+        <p>
+          {{product.description}}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>Add to cart</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>
+
+
+
