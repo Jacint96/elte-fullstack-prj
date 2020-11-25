@@ -1,0 +1,23 @@
+<div class="row pt-3">
+  <div class="col-lg-4 col-md-4 col-sm-6 col-12 pt-3" fxFlexAlign="stretch">
+    <mat-card class="example-card">
+      <img mat-card-image src="{{products[id].image}}" alt="Photo of a Shiba Inu" style="max-height: 420px;">
+      <mat-card-actions>
+        <button mat-button>Add to cart</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+  <div class="col-lg-8 col-md-8 col-sm-6 col-12 pt-3" fxFlexAlign="stretch">
+    <mat-card class="example-card">
+      <mat-card-content>
+        <h3 class="font-weight-bold">Description</h3>
+        <p>
+          {{products[id].description}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+
+

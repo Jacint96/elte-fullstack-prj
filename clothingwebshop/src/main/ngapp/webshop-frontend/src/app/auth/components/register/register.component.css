@@ -1,0 +1,10 @@
+.register-row{
+  width: 350px;
+  height: 40vh;
+  margin: 0 auto;
+}
+
+.register-col{
+  margin-top:auto;
+  margin-bottom:auto;
+}
