@@ -28,6 +28,7 @@ import { NewUserComponent } from './admin/users/new-user/new-user.component';
 import { EditUserComponent } from './admin/users/edit-user/edit-user.component';
 import { NewProductComponent } from './admin/products/new-product/new-product.component';
 import { EditProductComponent } from './admin/products/edit-product/edit-product.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { EditProductComponent } from './admin/products/edit-product/edit-product
     MatCardModule,
     AuthModule,
     RouterModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

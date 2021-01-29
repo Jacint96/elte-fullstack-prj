@@ -4,3 +4,16 @@
   background-position: center;
   min-height: 20vh;
 }
+
+.example-card{
+  border: 0.2px solid grey;
+  cursor: pointer;
+}
+
+.description-p{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,6 +1,7 @@
 .footer-row{
   background-color: black;
   color: white;
+  margin-top:15px;
 }
 
 .footer-col{
@@ -15,3 +16,5 @@
 .footer-title{
   text-align: center;
 }
+
+
